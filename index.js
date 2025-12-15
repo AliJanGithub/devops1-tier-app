@@ -5,7 +5,7 @@ const app = express();
    app.use(cors())
 // Root route
 app.get("/", (req, res) => {
-    res.json({ result: "id" });
+    res.json({ result: "id and updated code" });
 });
 // Address route with dynamic id
 app.get("/address", (req, res) => {
